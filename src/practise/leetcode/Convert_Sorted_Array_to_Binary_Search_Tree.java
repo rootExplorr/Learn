@@ -9,7 +9,7 @@ class TreeNode {
 		   if(node==null)
 			   return;
 		   printTree(node.left);
-		   System.out.println(node.val);
+		   System.out.print(node.val+" ");
 		   printTree(node.right);
 	   }
 	 }
