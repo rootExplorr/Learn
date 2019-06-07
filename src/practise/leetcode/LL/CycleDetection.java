@@ -13,7 +13,6 @@ public class CycleDetection {
 		slow=head;
 		//Placing the fast pointer at this point works only for cycle detection  & not for finding cycle start point.
         fast=head.next.next;
-		
 		while(fast!=null && fast.next!=null && fast!=slow){
 			slow=slow.next;
 			fast=fast.next.next;
