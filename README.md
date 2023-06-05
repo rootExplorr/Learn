@@ -1,2 +1,2 @@
 # Learn
-To share my learnings with community.
+Share my learnings.
